@@ -1,0 +1,29 @@
+.bold {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: rgb(154, 220, 231);
+}
+
+.emphasize {
+    color:rgb(0, 64, 255); 
+}
+
+.italics {
+    font-style: italic;
+}
+
+.big {
+    font-style: 2rem;
+}
+
+.subbody{
+    background-color:rgb(214, 214, 214);
+    margin:30px;
+    padding: 20px;   
+}
+
+.center {
+    text-align: center;
+}

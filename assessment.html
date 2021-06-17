@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessments</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="js/assessment.js"></script>
+</head>
+<body onload="loaded()">
+    <input id="name" type="text" placeholder="Topic">
+    <input id="score" type="number" placeholder="Score">
+    <button type="button" id="add" onclick="clicked()">Add</button> 
+
+    <table class="table tbl-sm table-striped table-dark">
+        <thead>
+            <tr>
+                <td></td>
+                <td>Assessment</td>
+                <td>Score</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" style="width:300px;">Average Score</td>
+                <td id="avg"></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
